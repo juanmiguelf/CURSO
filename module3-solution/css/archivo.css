@@ -1,0 +1,54 @@
+
+#cabecera {
+	       background-color: orange;
+}
+
+#header-nav {
+	       background-color: orange;
+}
+
+#header-nav p {
+	       font-size: 20px;
+	       margin: 10px;
+}
+
+#titulo-menu {
+		       font-size: 15px;
+}
+
+.capitulo {
+	text-align: center;
+}
+
+.marco_chicken {
+  background-color: yellow;	
+  padding: 40px;
+  margin: 40px;
+}
+
+.marco_beef {
+  background-color: lightgreen;	
+  padding: 40px;
+  margin: 40px;
+}
+
+.marco_sushi {
+  background-color: lightblue;	
+  padding: 40px;
+  margin: 40px;
+}
+  
+
+
+@media (min-width: 768px)  {
+	#li_chicken {
+     display : none;
+	} 	
+	#li_beef {
+     display : none;
+	} 
+	#li_sushi {
+     display : none;
+	} 	
+	
+}  
